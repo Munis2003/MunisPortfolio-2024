@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import ArrowSvg from '../assets/arrow.svg'
+import AboutMeSvg from '../assets/ABOUTME.svg'
 
 const Services = () => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -67,8 +69,8 @@ const Services = () => {
 </div>
 <Link to="/aboutme" className="inline-block" onClick={()=>window.scrollTo(0,0 )}>
       <div className="flex items-center justify-center rotate-[-120deg] border-2 w-20 h-20 mt-10 p-5 rounded-full transition-opacity duration-300 ease-in-out hover:opacity-90 hover:border-0">
-        <img className="w-6 h-6" src="./images/arrow.svg" alt="arrow" />
-        <img src="./images/AboutMe.svg" alt="About me badge" class="badge"></img>
+        <img className="w-6 h-6" src= {ArrowSvg} alt="arrow" />
+        <img src={AboutMeSvg} alt="About me badge" class="badge"></img>
       </div>
     </Link>
    

@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import { FaArrowDown } from "react-icons/fa";
 import About from './About';
+import home1 from '../assets/home1.png'
 
 const Homepage = () => {
   const aboutRef = useRef(null);
@@ -14,8 +15,8 @@ const Homepage = () => {
       <div className='w-full'>
         <div className='max-w-screen-xl px-14 mx-auto mt-5 flex items-center justify-center'>
           <div className=''>
-            <div className='flex items-center justify-center'>
-              <img className='object-cover w-[82%]' src="./images/home1.png" alt="" />
+            <div className='flex items-center justify-center'>  
+              <img className='object-cover w-[82%]' src={home1} alt="" />
             </div>
             <div onClick={scrollToAbout} className='flex mt-10 ml-[-4.9%] gap-3 items-center text-[#f2f2f2]/70 hover:text-[#f2f2f2] cursor-pointer'>
               <button >
