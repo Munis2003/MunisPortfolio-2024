@@ -1,0 +1,221 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* font-family: 'satoshi'; */
+  
+}
+.marque{
+  width: 50%;
+    
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding: 0.3vw;
+}
+
+.marque h1{
+
+  display: inline-block;
+  font-weight: 450;
+  text-transform:uppercase ;
+  animation-name: move;
+  margin-right: 15px;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes move {
+  from{
+    transform:translateX(0)
+  }
+  to{
+    transform:translateX(calc(-100% - 2vw))
+  }
+}
+.footer-span{
+position: relative;
+  z-index: 1;
+
+}
+.footer-span::after{
+  content: "C";
+  position: absolute;
+  right: 11%;
+  top: -24%;
+  z-index: -1;
+  color: #603ae1;
+  opacity: 90%;
+}
+
+#about{
+  position: relative;
+  background-color:#f2f2f2
+}
+
+#about::before{
+  content: " ";
+  width: 100%;
+  top: -75px;
+  height: 150px;
+  position: absolute;
+  background-size: cover;
+  background-image: url('/images/tornf2.svg');
+  transform: rotate(180deg);
+}
+
+#project{
+  position: relative;
+}
+
+#project::before{
+
+  content: " ";
+  width: 100%;
+  top:-105px;
+  height: 150px;
+  position: absolute;
+  background-size: cover;
+  background-image: url('/images/tornf2.svg');
+  transform: rotate(360deg);
+}
+
+#services{
+  position: relative;
+}
+
+#services::before{
+  
+  content: " ";
+  width: 100%;
+  top:-105px;
+  height: 150px;
+  position: absolute;
+  background-size: cover;
+  background-image: url('/images/tornf2.svg');
+  transform: rotate(0deg);
+}
+
+.contact{
+  position: relative;
+} 
+
+.contact::before{
+  content: " ";
+  width: 100%;
+  top:-105px;
+  height: 150px;
+  position: absolute;
+  background-size: cover;
+  background-image: url('/images/tornf2.svg');
+  transform: rotate(180deg);
+}
+::-webkit-scrollbar {
+  width: 7px; 
+}
+::-webkit-scrollbar-track {
+  background:#212121;
+}
+::-webkit-scrollbar-thumb {
+  height: 1%;
+  min-height: 0%;
+  background-color: #f2f2f2;
+  border-radius: 10px; 
+  border: 0.1px solid #212121; 
+}
+
+.skillsmarque {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 2.5vw;
+  position: relative;
+}
+.marquee {
+  display: inline-block;
+  animation: scroll 70s linear infinite;
+  
+}
+.skillsmarque h1 {
+  display: inline-block;
+  text-transform: uppercase;
+  margin-right: 30px;
+  font-family: Migra;
+  font-style: italic;
+}
+.skillsmarque i {
+  font-family: Migra;
+  font-style: italic;
+}
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+.links .relative {
+  position: relative;
+}
+
+.links .relative button {
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.links .relative .absolute {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 10;
+}
+
+.links .relative:hover .absolute {
+  display: block;
+}
+
+.links .relative .absolute a {
+  display: block;
+  text-decoration: none;
+}
+.ml-1 {
+  margin-left: 0.25rem;
+}
+
+.transform {
+  transition: transform 0.2s;
+}
+
+.card:hover{
+  border: 2px solid #212121;
+}
+.rotate {
+  transform: rotate(-120deg);
+}
+
+.badge {
+  position: absolute;
+  width: 5rem;
+  height: 5rem;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+
+.inline-block:hover .badge {
+  opacity: 1;
+  transform: rotate(360deg);
+}
+
+
