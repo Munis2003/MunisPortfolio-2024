@@ -20,7 +20,7 @@ const Contact = () => {
             <a className='text-[#212121]/70 hover:text-[#212121]' target='_blank' href='mailto: munisabbas2003@gmail.com'>Email</a>
             <a className='text-[#212121]/70 hover:text-[#212121]' target='_blank' href="https://www.linkedin.com/in/munisabbas/">LinkedIn</a>
             <a className='text-[#212121]/70 hover:text-[#212121]' target='_blank' href="https://github.com/Munis2003">Github</a>
-            <a className='text-[#603ae1]/70 hover:text-[#603ae1]' target='_blank' href="#">Resume</a>
+            <a className='text-[#603ae1]/70 hover:text-[#603ae1]' target='_blank' href="https://drive.google.com/file/d/1up7Ztqrru6hLTFLTvhFe2gd1hIdamwp7/view?usp=drive_link">Resume</a>
         </ul>
      </div>
      </div>
