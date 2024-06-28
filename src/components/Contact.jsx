@@ -16,7 +16,7 @@ const Contact = () => {
      </div>
      <div className='flex items-center justify-between mt-8'>
         <Link to='/' onClick={()=>window.scrollTo(0,0)}><img className= 'w-[55px]' src={MD} alt="" /></Link>
-        <ul className='flex  items-center gap-12 ml-24 text-[15px] mr-10 font-[satoshi]'>
+        <ul className='flex  items-center gap-12 ml-24 text-[15px] mr-10 font-[Satoshi Medium]'>
             <a className='text-[#212121]/70 hover:text-[#212121]' target='_blank' href='mailto: munisabbas2003@gmail.com'>Email</a>
             <a className='text-[#212121]/70 hover:text-[#212121]' target='_blank' href="https://www.linkedin.com/in/munisabbas/">LinkedIn</a>
             <a className='text-[#212121]/70 hover:text-[#212121]' target='_blank' href="https://github.com/Munis2003">Github</a>

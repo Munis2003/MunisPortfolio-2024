@@ -4,6 +4,7 @@
 @import url('https://fonts.cdnfonts.com/css/satoshi');
 @import url('https://db.onlinewebfonts.com/c/579a8f66264bd20639c65e2250acd4c9?family=Magilio-Regular');
 @import url('https://db.onlinewebfonts.com/c/397c8fcc530c43baa17c99c904467434?family=Migra');
+@import url('https://db.onlinewebfonts.com/c/7bec814954d059a7e7dae047285eedbc?family=Satoshi+Medium');
 
 @font-face {
   font-family: "Magilio-Regular";
@@ -24,6 +25,17 @@
   url("https://db.onlinewebfonts.com/t/397c8fcc530c43baa17c99c904467434.ttf")format("truetype"),
   url("https://db.onlinewebfonts.com/t/397c8fcc530c43baa17c99c904467434.svg#Migra")format("svg");
 }
+
+@font-face {
+  font-family: "Satoshi Medium";
+  src: url("https://db.onlinewebfonts.com/t/7bec814954d059a7e7dae047285eedbc.eot");
+  src: url("https://db.onlinewebfonts.com/t/7bec814954d059a7e7dae047285eedbc.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/7bec814954d059a7e7dae047285eedbc.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/7bec814954d059a7e7dae047285eedbc.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/7bec814954d059a7e7dae047285eedbc.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/7bec814954d059a7e7dae047285eedbc.svg#Satoshi Medium")format("svg");
+}
+
 
 
 *{
