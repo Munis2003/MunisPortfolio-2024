@@ -8,8 +8,8 @@ const MoreAboutMe = () => {
     <>
     <div className='max-w-screen-xl px-14 mx-auto'>
     <h1 className='text-[4.3vw] w-[49%] mt-12 mb-8  leading-[120%] text-[#f2f2f2] font-[satoshi]'>Designing meaningful
-experiences for <span className='text-[#603ae1] font-[myFont]'>brands </span>
-& <span className='text-[#603ae1] font-[myFont]'>businesses</span></h1>
+experiences for <span className='text-[#603ae1] font-[Migra]'>brands </span>
+& <span className='text-[#603ae1] font-[Migra]'>businesses</span></h1>
 
     <div className='w-[100%] h-[500px] overflow-hidden bg-[#f2f2f2]  mb-10'>
       <video controls className='w-[100%] h-[500px] object-cover' src={intro}></video>
@@ -24,7 +24,7 @@ things. Currently, I’m diving into Next.js and Three.js to create some awesome
 <SkillsMarque/>
 
 <div className='experience relative'>
-<h1 className=' uppercase text-[12px] text-[#f2f2f2]/70 font-[satoshi]'>Exper<span className='italic text-[13px] ml-[0.1%] text-[#603ae1]/70 font-[myFont]'>ience</span></h1>
+<h1 className=' uppercase text-[12px] text-[#f2f2f2]/70 font-[satoshi]'>Exper<span className='italic text-[13px] ml-[0.1%] text-[#603ae1]/70 font-[Migra]'>ience</span></h1>
     <h1 className='text-[#f2f2f2] text-[18px] w-[65%] mt-3 leading-[20px] font-[satoshi]'>I've achieved remarkable success in entrepreneurial environments, leading innovative projects, and consistently achieving remarkable growth and impactful results.</h1>
     <h1 className='text-[hsl(0,0%,95%)] text-[16px] w-[65%] mt-1 font-[satoshi] '>Here are my professional experiences and expertise:</h1>
     <div className='mt-5 flex items-center justify-between border-b-[1.2px] pb-3 border-[#f2f2f2]/20'>
@@ -55,7 +55,7 @@ things. Currently, I’m diving into Next.js and Three.js to create some awesome
 
 
 <div className='skills stack relative mt-14 pb-48'>
-<h1 className='uppercase text-[12px] text-[#f2f2f2]/70 font-[satoshi]'>My skills<span className='italic text-[13px] text-[#603ae1]/70 ml-[0.1%] font-[myFont]'>stack</span></h1>
+<h1 className='uppercase text-[12px] text-[#f2f2f2]/70 font-[satoshi]'>My skills<span className='italic text-[13px] text-[#603ae1]/70 ml-[0.1%] font-[Migra]'>stack</span></h1>
   
    <h1 className='text-[2.7vw] mb-5 mt-2 font-[satoshi]'>Languages & Liabraries</h1>
    <div className='flex items-center justify-between border-b-[1.2px] py-2 pb-4 border-[#f2f2f2]/20'>

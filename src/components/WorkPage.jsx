@@ -54,7 +54,7 @@ const WorkPage = () => {
             <img classNameme='w-full h-full' src={item.img} alt='.' />
           </div>
           <div className='ml-5 w-[60%]'>
-            <p className='text-[#f2f2f2] text-[1.7vw] font-[myFont] tracking-wider'>{item.name}</p>
+            <p className='text-[#f2f2f2] text-[1.7vw] font-[Migra] tracking-wider'>{item.name}</p>
             <p className='text-[12px] text-[#f2f2f2]/70 w-[80%] mt-1 font-[satoshi]'>{item.desc}</p>
             <div className='flex items-center text-[#f2f2f2] text-[15px] mt-3'>
               <a target='_blank' href={item.link}><button className='flex items-center gap-3 border-[1.2px] border-[#f2f2f2]/30 py-1 rounded-3xl text-[#f2f2f2]/70 p-2 text-[14px] font-[satoshi]'>View source code <i className="ri-github-fill text-[20px]"></i></button> </a>
