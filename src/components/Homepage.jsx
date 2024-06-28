@@ -22,7 +22,7 @@ const Homepage = () => {
               <button >
                 <FaArrowDown className='w-6 h-6 border-[1.4px] border-white/70 rounded-full p-[5px]' />
               </button>
-              <h5 className='uppercase text-[12px] tracking-wider font-[Satoshi Medium]'>Scroll to explore</h5>  
+              <h5 className='uppercase text-[12px] tracking-wider font-[Satoshi Light]'>Scroll to explore</h5>  
             </div> 
           </div>
         </div>

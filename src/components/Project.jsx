@@ -10,8 +10,8 @@ const Project = () => {
         <div className='max-w-screen-xl px-14 mx-auto pb-24 bg-[#f2f2f2]'>
         <div className='flex items-center justify-center gap-12 ml-20 '>
           <div className='flex items-center justify-center gap-4 ml-[26.1%]'>
-        <h1 className='tracking-wider uppercase text-[3.8vw] font-[400] text-[#212121] font-[Satoshi Medium]'>feat proj<span className='font-[Migra] font-[400] italic text-[4.2vw]  text-[#603ae1] mr-2'>ec</span>ts</h1>  
-        <h1 className='text-[#212121]/60 text-[1.7vw] font-[500] font-[Satoshi Medium]'>(02)</h1>
+        <h1 className='tracking-wider uppercase text-[3.8vw] font-[400] text-[#212121] font-[Satoshi Light]'>feat proj<span className='font-[Migra] font-[400] italic text-[4.2vw]  text-[#603ae1] mr-2'>ec</span>ts</h1>  
+        <h1 className='text-[#212121]/60 text-[1.7vw] font-[500] font-[Satoshi Light]'>(02)</h1>
         </div>
         <svg className="o-ui-arrow rotate-90 stroke-[#212121]/40 mt-16 ml-[12%] " width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M3.10162 3.10156L62.9999 62.9999" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M63 1.00001L63 63L0.999989 63" stroke-linecap="round" stroke-linejoin="round"></path> </svg>
         </div>
@@ -23,7 +23,7 @@ const Project = () => {
             <img className='overflow-hidden h-3xl w-3xl object-cover' src={SMWZMockup} alt="" />
             <button className='absolute inset-0 flex items-center justify-center bg-[#212121] bg-opacity-50 text-[#f2f2f2] opacity-0 group-hover:opacity-100 transition-opacity duration-300'>
               <h1 className='uppercase text-[#f2f2f2] text-[2.3vw] font-[Migra] font-[400] '>SMWZ</h1>
-             <a target='_blank' href="https://github.com/Munis2003/SMWZ-MOVIE-WEBAPP"><button className=' absolute top-[85%] left-[5%] flex items-center gap-3 border-[1.2px] border-[#f2f2f2]/30 py-1 rounded-3xl p-2 text-[14px] font-[Satoshi Medium]'>View source code <i className="ri-github-fill text-[20px]"></i></button></a>
+             <a target='_blank' href="https://github.com/Munis2003/SMWZ-MOVIE-WEBAPP"><button className=' absolute top-[85%] left-[5%] flex items-center gap-3 border-[1.2px] border-[#f2f2f2]/30 py-1 rounded-3xl p-2 text-[14px] font-[Satoshi Light]'>View source code <i className="ri-github-fill text-[20px]"></i></button></a>
  
             </button>
         </div>
@@ -38,7 +38,7 @@ const Project = () => {
             <img className='overflow-hidden h-3xl w-3xl object-cover' src={ChatMateMockup} alt="" />
             <button className='absolute inset-0 flex items-center justify-center bg-[#212121] bg-opacity-50 text-[#f2f2f2] opacity-0 group-hover:opacity-100 transition-opacity duration-300'>
               <h1 className='text-[#f2f2f2] text-[2.3vw] uppercase font-[Migra] font-[400]'>Chat Mate</h1>
-              <a target='_blank' href="https://github.com/Munis2003/ChatMate/tree/main"><button className=' absolute top-[85%] left-[5%] flex items-center gap-3 border-[1.2px] border-[#f2f2f2]/30 py-1 rounded-3xl p-2 text-[14px] font-[Satoshi Medium]'>View source code <i className="ri-github-fill text-[20px]"></i></button> </a>
+              <a target='_blank' href="https://github.com/Munis2003/ChatMate/tree/main"><button className=' absolute top-[85%] left-[5%] flex items-center gap-3 border-[1.2px] border-[#f2f2f2]/30 py-1 rounded-3xl p-2 text-[14px] font-[Satoshi Light]'>View source code <i className="ri-github-fill text-[20px]"></i></button> </a>
  
             </button>
         </div>
@@ -52,7 +52,7 @@ const Project = () => {
             <img className='overflow-hidden h-3xl w-3xl object-cover' src={CrypTrackerMockup} alt="" />
             <button className='absolute inset-0 flex items-center justify-center bg-[#212121] bg-opacity-50 text-[#f2f2f2] opacity-0 group-hover:opacity-100 transition-opacity duration-300'>
               <h1 className='text-[#f2f2f2] text-[2.3vw] uppercase font-[Migra] font-[400]'>Cryp Tracker</h1>
-              <a target='_blank' href="https://github.com/Munis2003/CrypTracker"><button className=' absolute top-[85%] left-[5%] flex items-center gap-3 border-[1.2px] border-[#f2f2f2]/30 py-1 rounded-3xl p-2 text-[14px] font-[Satoshi Medium]'>View source code <i className="ri-github-fill text-[20px]"></i></button> </a>
+              <a target='_blank' href="https://github.com/Munis2003/CrypTracker"><button className=' absolute top-[85%] left-[5%] flex items-center gap-3 border-[1.2px] border-[#f2f2f2]/30 py-1 rounded-3xl p-2 text-[14px] font-[Satoshi Light]'>View source code <i className="ri-github-fill text-[20px]"></i></button> </a>
  
             </button>
         </div>
@@ -66,7 +66,7 @@ const Project = () => {
             <img className='overflow-hidden h-3xl w-3xl object-cover' src={MuseSphereMockup} alt="" />
             <button className='absolute inset-0 flex items-center justify-center bg-[#212121] bg-opacity-50 text-[#f2f2f2] opacity-0 group-hover:opacity-100 transition-opacity duration-300'>
               <h1 className=' text-[#f2f2f2] text-[2.3vw] uppercase font-[Migra] font-[400]'>Muse Sphere</h1>
-              <a target='_blank' href="https://github.com/Munis2003/MuseSphere"><button className=' absolute top-[85%] left-[5%] flex items-center gap-3 border-[1.2px] border-[#f2f2f2]/30 py-1 rounded-3xl p-2 text-[14px] font-[Satoshi Medium]'>View source code <i className="ri-github-fill text-[20px]"></i></button></a>
+              <a target='_blank' href="https://github.com/Munis2003/MuseSphere"><button className=' absolute top-[85%] left-[5%] flex items-center gap-3 border-[1.2px] border-[#f2f2f2]/30 py-1 rounded-3xl p-2 text-[14px] font-[Satoshi Light]'>View source code <i className="ri-github-fill text-[20px]"></i></button></a>
  
             </button>
         </div>

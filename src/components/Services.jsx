@@ -33,28 +33,28 @@ const Services = () => {
       <div className='max-w-screen-xl mx-auto px-14 relative'>
         <div className='w-[100%]'>
         <div className='absolute left-[87.1%]'>
-            <h1 className='uppercase text-[12px] text-[#f2f2f2]/70 pt-32 font-[Satoshi Medium] '>What do i <span className='text-[14px] text-[#603ae1]/70 font-[Migra] font-[400] italic'>offer</span></h1>
+            <h1 className='uppercase text-[12px] text-[#f2f2f2]/70 pt-32 font-[Satoshi Light] '>What do i <span className='text-[14px] text-[#603ae1]/70 font-[Migra] font-[400] italic'>offer</span></h1>
           </div>
-          <p className='pt-40 text-[#ffffff] text-[3.3vw] w-[60%]  leading-[120%] pb-8 font-[Satoshi Medium]'>
+          <p className='pt-40 text-[#ffffff] text-[3.3vw] w-[60%]  leading-[120%] pb-8 font-[Satoshi Light]'>
             Delivering <span className='font-[Migra] font-[400] italic '>modern, unified </span>&<span className='font-[Migra] font-[400] italic'> intuitive</span> web solutions.
           </p>
           
           {services.map((service, index) => (
             <div key={service.id} className='w-[100%]'>
               <div
-                className={`flex w-[100%] items-center justify-between mt-12 cursor-pointer pb-5 font-[Satoshi Medium]  ${activeIndex === index ? '' : 'border-b'}`}
+                className={`flex w-[100%] items-center justify-between mt-12 cursor-pointer pb-5 font-[Satoshi Light]  ${activeIndex === index ? '' : 'border-b'}`}
                 onClick={() => toggleAccordion(index)}
               >
                 <div className='flex gap-24'>
                   <h1 className='font-[Migra] font-[400] text-[2.5vw]'>{service.id.toString().padStart(2, '0')}/</h1>
-                  <h1 className='text-[2.5vw] font-[300] font-[Satoshi Medium]'>{service.title}</h1>
+                  <h1 className='text-[2.5vw] font-[300] font-[Satoshi Light]'>{service.title}</h1>
                 </div>
-                <h1 className='text-[2.5vw] font-[Satoshi Medium] '>{activeIndex === index ? <i className="ri-subtract-line font-[100] text-[25px]"></i> : <i className="ri-add-line font-[100] text-[25px]"></i>}</h1>
+                <h1 className='text-[2.5vw] font-[Satoshi Light] '>{activeIndex === index ? <i className="ri-subtract-line font-[100] text-[25px]"></i> : <i className="ri-add-line font-[100] text-[25px]"></i>}</h1>
               </div>
               {activeIndex === index && (
                 <div>
                   <div className='mt-4'>
-                    <h1 className='text-[16px] w-[70%] ml-[12%] mt-[-1%] font-[Satoshi Medium]'>{service.description}</h1>
+                    <h1 className='text-[16px] w-[70%] ml-[12%] mt-[-1%] font-[Satoshi Light]'>{service.description}</h1>
                   </div>
                   <div className='border-b pb-7'></div>
                 </div>
@@ -64,7 +64,7 @@ const Services = () => {
         </div>
 
         <div className='flex items-center justify-between mt-10 mb-40 gap-4'>
-          <h1 className='text-[19px] w-[40%] font-[Satoshi Medium]  mt-7'>I find joy in creating meaningful experiences tailored for brands and businesses, enabling them to effectively engage and serve their target users with genuine impact and resonance.</h1>
+          <h1 className='text-[19px] w-[40%] font-[Satoshi Light]  mt-7'>I find joy in creating meaningful experiences tailored for brands and businesses, enabling them to effectively engage and serve their target users with genuine impact and resonance.</h1>
 <div className='flex  items-center'>
 </div>
 <Link to="/aboutme" className="inline-block" onClick={()=>window.scrollTo(0,0 )}>
