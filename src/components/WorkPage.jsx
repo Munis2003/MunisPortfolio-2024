@@ -1,15 +1,22 @@
 import React from 'react';
-// import WorkPage1 from '../src/assets/WorkPage1.png'
+import WorkPage1 from '../assets/WorkPage1.png'
+import WorkPage2 from '../assets/WorkPage2.png'
+import WorkPage3 from '../assets/WorkPage3.png'
+import WorkPage4 from '../assets/WorkPage4.png'
+import WorkPage5 from '../assets/WorkPage5.png'
+import WorkPage6 from '../assets/WorkPage6.png'
+import WorkPage7 from '../assets/WorkPage7.png'
+
 
 const WorkPage = () => {
   const data =[
-  {name:'SMWZ',desc:' Crafted an innovative movie database app with inclusive design, leveraging TMDB API for intuitive infinite scrolling, captivating filters.',img:'../src/assets/WorkPage1.png',link:'https://github.com/Munis2003/SMWZ-MOVIE-WEBAPP'},
-  {name:'ChatMate',desc:'Introducing ChatMate, an advanced AI chatbot with seamless voice command integration for intuitive interactions, ensuring a dynamic user experience.',img:'../src/assets/WorkPage2.png',link:'https://github.com/Munis2003/ChatMate/tree/main'},
-  {name:'MuseSphere',desc:'Built MuseSphere, an innovative video call app with inclusive design, utilizing ZegoCloud API for intuitive call handling and captivating UI/UX.',img:'../src/assets/WorkPage3.png',link:'https://github.com/Munis2003/MuseSphere'},
-  {name:'CrypTracker',desc:'Developed CrypTracker, an app displaying cryptocurrencies with detailed views, interactive charts, and features like search, pagination.',img:'../src/assets/WorkPage4.png',link:'https://github.com/Munis2003/CrypTracker'},
-  {name:'Weya.Ai',desc:'Crafted an intuitive, aesthetically-pleasing website leveraging inclusive design for Weya.ai, an innovative AI solutions provider.',img:'../src/assets/WorkPage5.png',link:'https://www.weya.ai/'},
-  {name:'HappySocks',desc:'Developed HappySocks, a static site showcasing various aesthetic clothing, primarily socks, designed to provide a visually pleasing user experience.',img:'../src/assets/WorkPage6.png',link:'https://github.com/Munis2003/Happy-Socks-Webpage-HTML-CSS-'},
-  {name:'JS Projects',desc:'Created JS-Mini-Projects to enhance programming skills through practical, hands-on learning, spanning basic to advanced JavaScript concepts.',img:'../src/assets/WorkPage7.png',link:'https://github.com/Munis2003/JS-Mini-Projects'}
+  {name:'SMWZ',desc:' Crafted an innovative movie database app with inclusive design, leveraging TMDB API for intuitive infinite scrolling, captivating filters.',img:`${WorkPage1}`,link:'https://github.com/Munis2003/SMWZ-MOVIE-WEBAPP'},
+  {name:'ChatMate',desc:'Introducing ChatMate, an advanced AI chatbot with seamless voice command integration for intuitive interactions, ensuring a dynamic user experience.',img:`${WorkPage2}`,link:'https://github.com/Munis2003/ChatMate/tree/main'},
+  {name:'MuseSphere',desc:'Built MuseSphere, an innovative video call app with inclusive design, utilizing ZegoCloud API for intuitive call handling and captivating UI/UX.',img:`${WorkPage3}`,link:'https://github.com/Munis2003/MuseSphere'},
+  {name:'CrypTracker',desc:'Developed CrypTracker, an app displaying cryptocurrencies with detailed views, interactive charts, and features like search, pagination.',img:`${WorkPage4}`,link:'https://github.com/Munis2003/CrypTracker'},
+  {name:'Weya.Ai',desc:'Crafted an intuitive, aesthetically-pleasing website leveraging inclusive design for Weya.ai, an innovative AI solutions provider.',img:`${WorkPage5}`,link:'https://www.weya.ai/'},
+  {name:'HappySocks',desc:'Developed HappySocks, a static site showcasing various aesthetic clothing, primarily socks, designed to provide a visually pleasing user experience.',img:`${WorkPage6}`,link:'https://github.com/Munis2003/Happy-Socks-Webpage-HTML-CSS-'},
+  {name:'JS Projects',desc:'Created JS-Mini-Projects to enhance programming skills through practical, hands-on learning, spanning basic to advanced JavaScript concepts.',img:`${WorkPage7}`,link:'https://github.com/Munis2003/JS-Mini-Projects'}
 
   ]
   return (
@@ -44,7 +51,7 @@ const WorkPage = () => {
           return(
             <div className='flex mb-10 '>
           <div className='w-[232px] h-[150px] rounded-lg overflow-hidden'>
-            <img me='w-full h-full' src={item.img} />
+            <img classNameme='w-full h-full' src={item.img} alt='.' />
           </div>
           <div className='ml-5 w-[60%]'>
             <p className='text-[#f2f2f2] text-[1.7vw] font-[Migra] tracking-wider'>{item.name}</p>
