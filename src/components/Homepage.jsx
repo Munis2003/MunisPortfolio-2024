@@ -15,7 +15,7 @@ const Homepage = () => {
         <div className='max-w-screen-xl px-14 mx-auto mt-5 flex items-center justify-center'>
           <div className=''>
             <div className='flex items-center justify-center'>
-              <img className='object-cover w-[82%]' src="/images/home1.png" alt="" />
+              <img className='object-cover w-[82%]' src="./images/home1.png" alt="" />
             </div>
             <div onClick={scrollToAbout} className='flex mt-10 ml-[-4.9%] gap-3 items-center text-[#f2f2f2]/70 hover:text-[#f2f2f2] cursor-pointer'>
               <button >

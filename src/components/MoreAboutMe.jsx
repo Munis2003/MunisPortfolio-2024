@@ -11,7 +11,7 @@ experiences for <span className='text-[#603ae1] font-[Migra]'>brands </span>
 & <span className='text-[#603ae1] font-[Migra]'>businesses</span></h1>
 
     <div className='w-[100%] h-[500px] overflow-hidden bg-[#f2f2f2]  mb-10'>
-      <video controls className='w-[100%] h-[500px] object-cover' src="/src/assets/introbw.mp4"></video>
+      <video controls className='w-[100%] h-[500px] object-cover' src="./src/assets/introbw.mp4"></video>
     </div>
     
 
