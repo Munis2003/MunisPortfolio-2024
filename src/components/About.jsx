@@ -6,12 +6,12 @@ const About = forwardRef((props, ref) => {
     <>
       <div id='about' ref={ref} className='max-w-screen-xl mx-auto relative'>
         <div className='px-14'>
-          <h1 className='absolute left-[87.1%] top-[7%] uppercase text-[12px] font-[satoshi] text-[#212121]/70 '>Who I <span className='italic text-[14px] text-[#603ae1]/70 font-[Migra] font-[400]'>Am</span></h1>
+          <h1 className='absolute left-[87.1%] top-[7%] uppercase text-[12px] font-[satoshi] text-[#212121]/70 '>Who I <span className='italic text-[14px] text-[#603ae1]/70 font-[myFont] font-[400]'>Am</span></h1>
           <div className='mt-24 pt-12 font-[satoshi]'>
             <h1 className='text-[3.3vw] w-[85%] font-[400] leading-[120%] text-[#212121] mt-7'>
               I'm Munis, a 21-year-old frontend developer based in India with a passion for solving problems through 
-              <span className='text-[#603AE1] font-[Migra] font-[400] italic'> simple</span> & 
-              <span className='text-[#603AE1] font-[Migra] font-[400] italic'> interactive designs.</span>
+              <span className='text-[#603AE1] font-[myFont] font-[400] italic'> simple</span> & 
+              <span className='text-[#603AE1] font-[myFont] font-[400] italic'> interactive designs.</span>
             </h1>
             <h1 className='text-[15px] w-[45%] font-[400] font-[satoshi] text-[#212124] mt-5'>
               Depending on the project requirement, I try to opt for a suitable design

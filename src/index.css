@@ -1,13 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+@import url('https://db.onlinewebfonts.com/c/579a8f66264bd20639c65e2250acd4c9?family=Magilio-Regular');
+@font-face{
+  font-family: myFont;
+  src: url(MigraW.woff);
+}
+@font-face {
+  font-family: "Magilio-Regular";
+  src: url("https://db.onlinewebfonts.com/t/579a8f66264bd20639c65e2250acd4c9.eot");
+  src: url("https://db.onlinewebfonts.com/t/579a8f66264bd20639c65e2250acd4c9.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/579a8f66264bd20639c65e2250acd4c9.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/579a8f66264bd20639c65e2250acd4c9.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/579a8f66264bd20639c65e2250acd4c9.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/579a8f66264bd20639c65e2250acd4c9.svg#Magilio-Regular")format("svg");
+}
+
 
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  /* font-family: 'satoshi'; */
-  
+  font-family: 'Satoshi', sans-serif
 }
 .marque{
   width: 50%;
