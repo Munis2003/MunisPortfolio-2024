@@ -2,7 +2,7 @@ import React from 'react'
 import { IoMdReturnRight } from "react-icons/io";
 import Marque from './Marque';
 import { Link } from 'react-router-dom';
-import MD from '/assets/MD1.png'
+import MD from '../assets/MD1.png'
 
 const Contact = () => {
   return (
