@@ -51,7 +51,7 @@ const WorkPage = () => {
           return(
             <div className='flex mb-10 '>
           <div className='w-[232px] h-[150px] rounded-lg overflow-hidden'>
-            <img classNameme='w-full h-full' src={item.img} alt='.' />
+            <img className='w-full h-full' src={item.img} alt='.' />
           </div>
           <div className='ml-5 w-[60%]'>
             <p className='text-[#f2f2f2] text-[1.7vw] font-[Migra] tracking-wider'>{item.name}</p>

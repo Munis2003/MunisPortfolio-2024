@@ -4,8 +4,8 @@ const SkillsMarque = () => {
   return (
 
     <>
-<div className='flex max-w-screen-xl mx-auto'>
-    <div className='skillsmarque text-[6vw] text-[#f2f2f2] border-t-[1.2px] border-b-[1.2px] border-[#f2f2f2]/20 my-10'>
+<div className='flex max-w-screen-xl mx-auto '>
+    <div className='skillsmarque text-[6vw] text-[#f2f2f2] border-t-[1.2px] border-b-[1.2px] border-[#f2f2f2]/20 my-10 max-[900px]:my-3'>
         <div className='marquee  flex items-center justify-center'>
             <h1>HTML <i className="ri-subtract-line text-[#f2f2f2] text-[35px] italic"></i></h1>
             <h1>CSS <i className="ri-subtract-line text-[#f2f2f2] text-[35px] italic"></i></h1>
