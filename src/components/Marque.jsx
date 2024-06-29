@@ -4,7 +4,7 @@ const Marque = () => {
   return (
     <>
 <div className='flex  max-w-screen-xl mx-auto'>
-<div className='marque rounded-2xl text-[14px] bg-[#f2f2f2] text-[#212121] font-[Satoshi Light] hover:bg-[#212121]/90 hover:text-[#f2f2f2] ease-in-out duration-[0.5s] cursor-pointer border-[1.2px] border-[#212121]/30 mt-8'>     
+<div className='marque rounded-2xl text-[14px] max-[900px]:mt-5 max-[900px]:text-[8px] bg-[#f2f2f2] text-[#212121] font-[Satoshi Light] hover:bg-[#212121]/90 hover:text-[#f2f2f2] ease-in-out duration-[0.5s] cursor-pointer border-[1.2px] border-[#212121]/30 mt-8'>     
 <h1>Feel free to reach out for projects. <i class="ri-circle-line ml-5 text-[#603ae1]"></i> </h1>
 <h1>Feel free to reach out for projects. <i class="ri-circle-line  ml-5 text-[#603ae1]"></i> </h1>
 <h1>Feel free to reach out for projects. <i class="ri-circle-line ml-5 text-[#603ae1]"></i> </h1>

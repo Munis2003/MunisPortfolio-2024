@@ -5,10 +5,10 @@ const Navbar = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
   return (
     <>
-      <div className='max-w-screen-xl px-14 mx-auto pt-10 py-5'>
+      <div className='max-w-screen-xl mx-auto py-5 lg:px-14 lg:pt-10 max-[900px]:px-[1em]'>
         <div className='nav-left'>
           <div className='links'>
-            <nav className='flex items-center uppercase justify-between text-[12px] font-regular text-[#f2f2f2]/70 font-[Satoshi Light]'>
+            <nav className='hidden lg:flex items-center justify-between uppercase  text-[12px] font-regular text-[#f2f2f2]/70 font-[Satoshi Light]'>
               <Link className='hover:text-[#f2f2f2]' to='/'>Munis Abbas</Link>
               <Link className='hover:text-[#f2f2f2]' to='/work'>Project</Link>
               <div className='relative hover:text-[#f2f2f2]' onMouseEnter={() => setDropdownOpen(true)} onMouseLeave={() => setDropdownOpen(false)}>
@@ -28,6 +28,7 @@ const Navbar = () => {
               </div>
               <a target='_blank' href='mailto: munisabbas2003@gmail.com' className='text-[#603AE1]/70 hover:text-[#603AE1]' to='/'>Contact</a>
             </nav>
+            <h1 className="lg:hidden uppercase font-[Satoshi Light] flex items-center gap-1 justify-end text-[#f2f2f2]/70 text-[9px] hover:text-[#f2f2f2]"><span className='text-[14px]'>+</span> Menu</h1>
           </div>
         </div>
       </div>

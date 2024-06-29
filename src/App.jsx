@@ -12,7 +12,7 @@ import MoreAboutMe from './components/MoreAboutMe';
 
 const App = () => {
   return ( 
-    <div className='w-full bg-[#212121] text-[#f8f8ff] font-[Satoshi Light]'>
+    <div className='w-[100%] bg-[#212121] text-[#f8f8ff] font-[Satoshi Light]'>
       <Navbar />
       <Routes>
         <Route path="/work" element={<WorkPage />} />
