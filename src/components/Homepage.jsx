@@ -20,7 +20,7 @@ const Homepage = () => {
             </div>
             <div onClick={scrollToAbout} className='flex items-center max-[900px]:gap-2 gap-3 max-[900px]:px-[2em] max-[900px]:mb-10  mt-10 ml-[-4.9%] lg-px-14 text-[#f2f2f2]/70 hover:text-[#f2f2f2] cursor-pointer'>
               <button >
-                <FaArrowDown className='max-[900px]:w-4 max-[900px]:h-4 max-[900px]:border-[1.2px]  w-6 h-6 border-[1.4px] border-white/70 rounded-full p-[5px] max-[900px]:p-[5px]' />
+                <FaArrowDown className='max-[900px]:w-5 max-[900px]:h-5 max-[900px]:border-[1.2px]  w-6 h-6 border-[1.4px] border-white/70 rounded-full p-[5px] max-[900px]:p-[5px]' />
               </button>
               <h5 className='uppercase text-[12px]  max-[900px]:text-[9px] tracking-wider font-[Satoshi Light]'>Scroll to explore</h5>  
             </div> 

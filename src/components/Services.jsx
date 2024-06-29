@@ -58,7 +58,7 @@ const Services = () => {
               {activeIndex === index && (
                 <div>
                   <div className='mt-4'>
-                    <h1 className='text-[16px] max-[900px]:text-[5px] max-[900px]:ml-[6.2%] max-[900px]:font-[300] max-[900px]:mt-[-6%] w-[70%] ml-[12%] mt-[-1%] font-[Satoshi Light]'>{service.description}</h1>
+                    <h1 className='text-[16px] max-[900px]:text-[7px] max-[900px]:ml-[6.2%] max-[900px]:font-[300] max-[900px]:mt-[-6%] w-[70%] ml-[12%] mt-[-1%] font-[Satoshi Light]'>{service.description}</h1>
                   </div>
                 </div>
               )}
