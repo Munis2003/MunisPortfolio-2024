@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import ArrowSvg from '../assets/arrow.svg'
 import AboutMeSvg from '../assets/ABOUTME.svg'
+import Plus from '../assets/plus.svg'
+
 
 const Services = () => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -33,7 +35,7 @@ const Services = () => {
       <div className='max-w-screen-xl mx-auto px-14 max-[900px]:px-[1em] relative'>
         <div className=''>
         <div className='max-[900px]:mt-8'>
-          <h1 className='absolute lg:left-[91.8%] top-[7%] max-[900px]:top-0 max-[900px]:left-[87.1%] uppercase text-[12px] max-[900px]:text-[7px] font-[Satoshi Light] text-[#f2f2f2]/70 '>Who I <span className='italic text-[14px] max-[900px]:text-[9px] text-[#603ae1]/70 font-[Migra] font-[400]'>Am</span></h1>
+          <h1 className='absolute lg:left-[91.8%] top-[7%] max-[900px]:top-0 max-[900px]:left-[87.1%] uppercase text-[12px] max-[900px]:text-[7px] font-[Satoshi Light] text-[#f2f2f2]/70 '>What I <span className='italic text-[14px] max-[900px]:text-[9px] text-[#603ae1]/70 font-[Migra] font-[400]'> do</span></h1>
             
             {/* <h1 className='uppercase text-[12px] text-[#f2f2f2]/70 pt-32 font-[Satoshi Light] '>What do i <span className='text-[14px] text-[#603ae1]/70 font-[Migra] font-[400] italic'>offer</span></h1> */}
           </div>
@@ -44,19 +46,19 @@ const Services = () => {
           {services.map((service, index) => (
             <div key={service.id} className='w-[100%]'>
               <div
-                className={`flex w-[100%] items-center justify-between mt-12 max-[900px]:mt-0 cursor-pointer pb-5 max-[900px]:pb-1 font-[Satoshi Light]  ${activeIndex === index ? '' : 'border-b'}`}
+                className={`flex w-[100%] items-center justify-between mt-12 max-[900px]:mt-5 cursor-pointer pb-5 max-[900px]:pb-5 font-[Satoshi Light]  ${activeIndex === index ? '' : 'border-b'}`}
                 onClick={() => toggleAccordion(index)}
               >
                 <div className='flex gap-24 max-[900px]:gap-3'>
                   <h1 className='font-[Migra] font-[400] text-[2.5vw]'>{service.id.toString().padStart(2, '0')}/</h1>
                   <h1 className='text-[2.5vw] font-[300] font-[Satoshi Light]'>{service.title}</h1>
                 </div>
-                <h1 className='text-[2.5vw] font-[Satoshi Light] '>{activeIndex === index ? <i className="ri-subtract-line font-[100] text-[25px]"></i> : <i className="ri-add-line font-[100] text-[25px]"></i>}</h1>
+                <h1 className='text-[2.5vw] font-[Satoshi Light] '>{activeIndex === index ? <i className="ri-subtract-line font-[100] text-[25px] max-[900px]:text-[10px] max-[900px]:text-[#f2f2f2]/70 "></i> : <img className='w-[16px] rotate-[135deg] max-[900px]:w-[10px]' src={Plus} alt="" /> }</h1>
               </div>
               {activeIndex === index && (
                 <div>
                   <div className='mt-4'>
-                    <h1 className='text-[16px] max-[900px]:text-[8px] max-[900px]:ml-[6.2%] max-[900px]:font-[100] max-[900px]:mt-[-6%] w-[70%] ml-[12%] mt-[-1%] font-[Satoshi Light]'>{service.description}</h1>
+                    <h1 className='text-[16px] max-[900px]:text-[5px] max-[900px]:ml-[6.2%] max-[900px]:font-[300] max-[900px]:mt-[-6%] w-[70%] ml-[12%] mt-[-1%] font-[Satoshi Light]'>{service.description}</h1>
                   </div>
                 </div>
               )}
@@ -65,7 +67,7 @@ const Services = () => {
         </div>
 
         <div className='flex items-center justify-between mt-10 mb-40 max-[900px]:mb-8 gap-4'>
-          <h1 className='text-[19px] w-[40%] font-[Satoshi Light] mt-7 max-[900px]:mt-[-10%] max-[900px]:text-[1.7vw] max-[900px]:w-[50%] '>I find joy in creating meaningful experiences tailored for brands and businesses, enabling them to effectively engage and serve their target users with genuine impact and resonance.</h1>
+          <h1 className='text-[19px] w-[40%] font-[Satoshi Light] mt-7 max-[900px]:mt-[-10%] font-[300] max-[900px]:text-[7px] max-[900px]:w-[50%] '>I find joy in creating meaningful experiences tailored for brands and businesses, enabling them to effectively engage and serve their target users with genuine impact and resonance.</h1>
 <div className='flex  items-center'>
 </div>
 <Link to="/aboutme" className="inline-block" onClick={()=>window.scrollTo(0,0 )}>
