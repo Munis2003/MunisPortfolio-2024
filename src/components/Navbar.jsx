@@ -6,7 +6,7 @@ const Navbar = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
   return (
     <>
-      <div className='max-w-screen-xl mx-auto py-5 lg:px-14 lg:pt-10 max-[900px]:px-[1em]'>
+      <div className='max-w-screen-xl mx-auto py-5 lg:px-14 lg:pt-10 max-[900px]:px-[1em] bg-[#212121]'>
         <div className='nav-left'>
           <div className='links'>
             <nav className='max-[900px]:flex max-[900px]:text-[9px] lg:flex items-center justify-between uppercase  text-[12px]  font-regular text-[#f2f2f2]/70 font-[Satoshi Light]'>

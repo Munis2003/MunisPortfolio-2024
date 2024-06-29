@@ -35,7 +35,7 @@ const Services = () => {
       <div className='max-w-screen-xl mx-auto px-14 max-[900px]:px-[1em] relative'>
         <div className=''>
         <div className='max-[900px]:mt-8'>
-          <h1 className='absolute lg:left-[91.8%] top-[7%] max-[900px]:top-0 max-[900px]:left-[87.1%] uppercase text-[12px] max-[900px]:text-[7px] font-[Satoshi Light] text-[#f2f2f2]/70 '>What I <span className='italic text-[14px] max-[900px]:text-[7px] text-[#603ae1]/70 font-[Migra] font-[400]'> do</span></h1>
+          <h1 className='absolute lg:left-[91.8%] top-[7%] max-[900px]:top-0 max-[900px]:left-[87.1%] uppercase text-[12px] max-[900px]:text-[7px] font-[Satoshi Light] text-[#f2f2f2]/70 '>What I <span className='italic text-[14px] max-[900px]:text-[9px] text-[#603ae1]/70 font-[Migra] font-[400]'> do</span></h1>
             {/* <h1 className='uppercase text-[12px] text-[#f2f2f2]/70 pt-32 font-[Satoshi Light] '>What do i <span className='text-[14px] text-[#603ae1]/70 font-[Migra] font-[400] italic'>offer</span></h1> */}
           </div>
           <p className='pt-40 max-[900px]:pt-5 text-[#ffffff] text-[3.3vw] w-[60%]  leading-[120%] pb-8 max-[900px]:pb-3 font-[Satoshi Light]'>

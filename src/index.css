@@ -105,6 +105,7 @@ position: relative;
 
 
 #project{
+  /* background-color: red; */
   position: relative;
 }
 
@@ -112,10 +113,11 @@ position: relative;
 
   content: " ";
   width: 100%;
-  top:-105px;
+  top: -105px;
   height: 150px;
   position: absolute;
   background-size: cover;
+  /* background-color: red ; */
   background-image: url('/src/assets/tornf2.svg');
   transform: rotate(360deg);
 }
@@ -151,14 +153,13 @@ position: relative;
   transform: rotate(180deg);
 }
 ::-webkit-scrollbar {
-  width: 7px; 
+  width: 3px;
 }
 ::-webkit-scrollbar-track {
   background:#212121;
 }
 ::-webkit-scrollbar-thumb {
-  height: 1%;
-  min-height: 0%;
+  min-height:40%;
   background-color: #f2f2f2;
   border-radius: 10px; 
   border: 0.1px solid #212121; 
