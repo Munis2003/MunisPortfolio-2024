@@ -14,7 +14,7 @@ const Project = () => {
         <h1 className='text-[#212121]/60 text-[2.8vw] font-[500] font-[Satoshi Light]'>(02)</h1>
         </div>
         </div>
-        <svg className="o-ui-arrow rotate-90  stroke-[#212121]/40  ml-[80.1%] max-[900px]:ml-[90.1%]  max-[900px]:w-[25px] max-[900px]:h-[25px] " width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M3.10162 3.10156L62.9999 62.9999" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M63 1.00001L63 63L0.999989 63" stroke-linecap="round" stroke-linejoin="round"></path> </svg>
+        <svg className="o-ui-arrow rotate-90  stroke-[#212121]/40  ml-[80.1%] max-[900px]:ml-[90.1%]  max-[900px]:w-[25px] max-[900px]:h-[25px] " width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M3.10162 3.10156L62.9999 62.9999" strokeLinecap="round" strokeLinejoin="round"></path> <path d="M63 1.00001L63 63L0.999989 63" strokeLinecap="round" strokeLinejoin="round"></path> </svg>
 
 
          <div className='flex flex-col justify-center w-[45vw] gap-4 max-[900px]:mt-[-3%] max-[900px]:px-[1em]'>
