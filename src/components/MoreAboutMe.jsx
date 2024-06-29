@@ -16,7 +16,7 @@ experiences for <span className='text-[#603ae1] font-[Migra]'>brands </span>
     </div>
     
 
-    <h1 className='text-[3.3vw] w-[73%] leading-[120%] text-[rgb(242,242,242)]  font-[Satoshi Light]'>A frontend developer dedicated to addressing challenges through elegant and user-friendly design solutions.</h1>
+    <h1 className='text-[3.3vw] max-[900px]:text-[3.9vw] max-[900px]:w-[90%]  w-[73%] leading-[120%] text-[rgb(242,242,242)]  font-[Satoshi Light]'>A frontend developer dedicated to addressing challenges through elegant and user-friendly design solutions.</h1>
     <h1 className='text-[15px] font-[Satoshi Light] w-[48%] max-[900px]:w-[69%] max-[900px]:text-[7px] max-[900px]:mt-2 text-[#f2f2f2]/70  mt-8' >
 I am a Computer Scrience graduate, and curiosity dragged me to learn Javascript. Then, I learned React.js and GSAP, among many other
 things. Currently, I’m diving into Next.js and Three.js to create some awesome stuff!</h1>
@@ -24,7 +24,7 @@ things. Currently, I’m diving into Next.js and Three.js to create some awesome
 <SkillsMarque/>
 
 <div className='experience relative'>
-<h1 className='uppercase text-[12px] max-[900px]:text-[9px] font-[Satoshi Light] text-[#f2f2f2]/70 '>Exper <span className='italic text-[14px] max-[900px]:w-[30%] max-[900px]:text-[2.3vw] max-[900px]:text-[7px] text-[#603ae1]/70 font-[Migra] font-[400]'>ience</span></h1>
+<h1 className='uppercase text-[12px] max-[900px]:text-[7px] font-[Satoshi Light] text-[#f2f2f2]/70 '>Exper <span className='italic text-[14px] max-[900px]:w-[30%] max-[900px]:text-[7px] text-[#603ae1]/70 font-[Migra] font-[400]'>ience</span></h1>
 
 {/* <h1 className=' uppercase text-[12px] text-[#f2f2f2]/70 font-[Satoshi Light]'>Exper<span className='italic text-[13px] ml-[0.1%] text-[#603ae1]/70 font-[Migra]'>ience</span></h1> */}
     <h1 className='text-[#f2f2f2] text-[1.4vw] max-[900px]:leading-tight w-[65%] mt-3 leading-[20px] font-[Satoshi Light]'>I've achieved remarkable success in entrepreneurial environments, leading innovative projects, and consistently achieving remarkable growth and impactful results.</h1>
@@ -57,7 +57,7 @@ things. Currently, I’m diving into Next.js and Three.js to create some awesome
 
 
 <div className='skills stack relative mt-14 pb-48 max-[900px]:pb-8'>
-<h1 className='uppercase text-[12px] max-[900px]:text-[9px] font-[Satoshi Light] text-[#f2f2f2]/70 '>My skills <span className='italic text-[14px] max-[900px]:w-[30%] max-[900px]:text-[2.3vw] max-[900px]:text-[7px] text-[#603ae1]/70 font-[Migra] font-[400]'>stack</span></h1>
+<h1 className='uppercase text-[12px] max-[900px]:text-[7px] font-[Satoshi Light] text-[#f2f2f2]/70 '>My skills <span className='italic text-[14px] max-[900px]:w-[30%] max-[900px]:text-[2.3vw] max-[900px]:text-[7px] text-[#603ae1]/70 font-[Migra] font-[400]'>stack</span></h1>
 
 {/* <h1 className='uppercase text-[12px] text-[#f2f2f2]/70 font-[Satoshi Light]'>My skills<span className='italic text-[13px] text-[#603ae1]/70 ml-[0.1%] font-[Migra]'>stack</span></h1> */}
   
