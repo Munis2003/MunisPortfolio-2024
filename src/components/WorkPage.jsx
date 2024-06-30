@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import WorkPage1 from '../assets/WorkPage1.png';
 import WorkPage2 from '../assets/WorkPage2.png';
 import WorkPage3 from '../assets/WorkPage3.png';
@@ -24,9 +25,9 @@ const WorkPage = () => {
         <h1 className='text-4xl sm:text-[3.3vw] text-[#f2f2f2] mb-2 sm:mb-[-1%] font-[Satoshi Light]'>Munis Abbas</h1>
         <p className='text-lg sm:text-[18px] text-[#f2f2f2] mb-4 font-[Satoshi Light]'>Front-end Developer</p>
         <p className='text-[#f2f2f2]/70 text-[15px] w-full sm:w-[65%] mb-10 font-[Satoshi Light]'>I build inclusive products and create innovative solutions for digital problems.</p>
-        <div className='flex items-center gap-2 text-[15px] mb-3'>
+        <Link to="/aboutme"><div className='flex items-center gap-2 text-[15px] mb-3'>
           <i className="ri-drag-move-line flex text-[15px] text-[#f2f2f2] font-[Satoshi Light]"></i><h1 className='text-[15px]'>About</h1>
-        </div>
+        </div></Link>
         <div className='flex items-center gap-2 text-[#603ae1]/70'>
           <i className="ri-drag-move-line"></i><h1 className='text-[15px] font-[Satoshi Light]'>Projects</h1>
         </div>

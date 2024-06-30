@@ -11,7 +11,7 @@ const Navbar = () => {
           <div className='links'>
             <nav className='max-[900px]:flex max-[900px]:text-[9px] lg:flex items-center justify-between uppercase  text-[12px]  font-regular text-[#f2f2f2]/70 font-[Satoshi Light]'>
               <Link className='hover:text-[#f2f2f2]' to='/'>Munis Abbas</Link>
-              <Link className='hover:text-[#f2f2f2]' to='/work'>Project</Link>
+              <Link className='hover:text-[#f2f2f2]' to='/work'>Projects</Link>
               <div className='hidden lg:block relative hover:text-[#f2f2f2]' onMouseEnter={() => setDropdownOpen(true)} onMouseLeave={() => setDropdownOpen(false)}>
                 <button className='uppercase flex items-center'>
                   Social
