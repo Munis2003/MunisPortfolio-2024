@@ -11,17 +11,17 @@ const About = forwardRef((props, ref) => {
             Who I <span className='italic text-[9px] lg:text-[12px] text-[#603ae1]/70 font-[Migra]'>Am</span>
           </h1>
           <div className='md:mt-20 md:pt-12 sm:pt-6 pt-3 font-[Satoshi Light]'>
-          <h1 className='text-[3.3vw] max-[900px]:text-[3.3vw] max-[900px]:w-[85%] md:text-[4vw] lg:text-[3.3vw] font-[400] leading-[120%] text-[#212121] mt-7'>
+          <h1 className='text-[3.3vw] max-[900px]:text-[3.9vw] max-[900px]:w-[95%] md:text-[3.9vw] lg:text-[3.3vw] lg:w-[82%] font-[400] leading-[120%] text-[#212121] mt-7'>
               I'm Munis, a 21-year-old frontend developer based in India with a passion for solving problems through
               <span className='text-[#603AE1] font-[Migra] italic'> simple</span> &
               <span className='text-[#603AE1] font-[Migra] italic'> interactive designs.</span>
             </h1>
-            <p className='text-[15px] max-[900px]:text-[12px] md:text-[14px] lg:text-[15px] w-[85%] sm:w-[75%] md:w-[65%] lg:w-[45%] text-[#212121] mt-5'>
+            <p className='text-[15px] max-[900px]:text-[7px] max-[900px]:w-[75%]  max-[900px]:mt-2  md:text-[14px] lg:text-[15px] w-[85%] sm:w-[75%] md:w-[65%] lg:w-[45%] text-[#212121] mt-5'>
               Depending on the project requirement, I try to opt for a suitable design style—Minimalistic, colourful, typographic, tech, elegant, etc.—while sticking to the core design principles.
             </p>
             <Link to="/aboutme" onClick={() => window.scrollTo(0, 0)}>
-              <button className='font-[Satoshi Light] border-[1.4px] rounded-[200px] py-2 px-5 mt-5 text-[14px] text-[#212121]/80 border-[#212121]/80'>
-                <i className="ri-circle-line mr-3 text-[#212121]/80 hover:text-[#603ae1]"></i>More About Me
+              <button className='font-[Satoshi Light] border-[1.4px] rounded-[200px] max-[900px]:border-[1.2px] max-[900px]:border-[#212121]/80  max-[900px]:py-1 max-[900px]:px-1 max-[900px]:text-[7px] max-[900px]:mt-2 py-2 px-5 mt-5 text-[14px] text-[#212121]/80 border-[#212121]/80'>
+                <i className="ri-circle-line mr-3 max-[900px]:mr-[2px] text-[#212121]/80 hover:text-[#603ae1]"></i>More About Me
               </button>
             </Link>
           </div>

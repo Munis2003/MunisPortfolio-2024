@@ -9,7 +9,7 @@ const Project = () => {
     <>
       <div className='max-w-screen-xl relative px-14 max-[900px]:px-[1.2em] mx-auto pb-24 max-[900px]:pb-8 max-[900px]:pt-5 bg-[#f2f2f2]'>
         <div className='flex items-center justify-center gap-12 ml-20 max-[900px]:ml-0 '>
-          <div className='flex items-center justify-center gap-4 '>
+          <div className='flex items-center justify-center gap-4 mt-5 max-[900px]:mt-[-3%] '>
             <h1 className='tracking-wider uppercase text-[3.8vw] max-[900px]:text-[5vw] font-[400] text-[#212121] font-[Satoshi Light]'>
               feat proj
               <span className='font-[Migra] font-[400] italic text-[4.2vw] max-[900px]:text-[5.4vw] max-[900px]:mr-1 text-[#603ae1] mr-2'>ec</span>ts

@@ -19,7 +19,7 @@ const Homepage = () => {
               <img className='object-cover w-[82%] md:w-[70%]' src={home1} alt="Home" />
             </div>  
             {/* <div className='flex items-center justify-between  mt-10 lg:mt-20 mb-5'> */}
-              <div onClick={scrollToAbout} className='flex mt-10 max-[900px]:mb-8 max-[900px]:mt-10  items-center gap-3 md:gap-4 lg:gap-5 cursor-pointer text-[#f2f2f2]/70 hover:text-[#f2f2f2]'>
+              <div onClick={scrollToAbout} className='flex mt-10 max-[900px]:mb-5 max-[900px]:mt-10  items-center gap-3 md:gap-4 lg:gap-5 cursor-pointer text-[#f2f2f2]/70 hover:text-[#f2f2f2]'>
                 <button>
                   <FaArrowDown className='w-5 h-5 md:w-6 md:h-6 lg:w-8 lg:h-8 border-[1.4px] md:border-[1.4px] lg:border-[1.4px] border-white/70 rounded-full p-[5px] md:p-[6px] lg:p-[8px]' />
                 </button>

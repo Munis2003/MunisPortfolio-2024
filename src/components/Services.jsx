@@ -45,14 +45,14 @@ const Services = () => {
           {services.map((service, index) => (
             <div key={service.id} className='w-[100%]'>
               <div
-                className={`flex w-[100%] items-center justify-between mt-12 max-[900px]:mt-5 cursor-pointer pb-5 max-[900px]:pb-5 font-[Satoshi Light]  ${activeIndex === index ? '' : 'border-b'}`}
+                className={`flex w-[100%] items-center justify-between mt-12 max-[900px]:mt-5 cursor-pointer pb-5 max-[900px]:pb-5 font-[Satoshi Light]  ${activeIndex === index ? '' : 'border-b max-[900px]: border-b-[1.2px]'}`}
                 onClick={() => toggleAccordion(index)}
               >
                 <div className='flex gap-24 max-[900px]:gap-3'>
-                  <h1 className='font-[Migra] font-[400] text-[2.5vw]'>{service.id.toString().padStart(2, '0')}/</h1>
-                  <h1 className='text-[2.5vw] font-[300] font-[Satoshi Light]'>{service.title}</h1>
+                  <h1 className='font-[Migra] text-[2.5vw]'>{service.id.toString().padStart(2, '0')}/</h1>
+                  <h1 className='text-[2.5vw] font-[Satoshi Light]'>{service.title}</h1>
                 </div>
-                <h1 className='text-[2.5vw] font-[Satoshi Light] '>{activeIndex === index ? <i className="ri-subtract-line font-[100] text-[25px] max-[900px]:text-[10px] max-[900px]:text-[#f2f2f2]/70 "></i> : <img className='w-[16px] rotate-[135deg] max-[900px]:w-[10px]' src={Plus} alt="" /> }</h1>
+                <h1 className='text-[2.5vw] font-[Satoshi Light] '>{activeIndex === index ? <img className='w-[16px] rotate-[0deg] max-[900px]:w-[10px]' src={Plus} alt="" />  : <img className='w-[16px] rotate-[135deg] max-[900px]:w-[10px]' src={Plus} alt="" /> }</h1>
               </div>
               {activeIndex === index && (
                 <div>
