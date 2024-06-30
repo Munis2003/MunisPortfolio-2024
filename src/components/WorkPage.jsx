@@ -39,7 +39,7 @@ const WorkPage = () => {
         </ul>
       </div>
 
-      <div className='sm:w-[50%] max-[900px]:mt-[-20%] relative'>
+      <div className='sm:w-[50%] relative'>
         <div className='w-full sm:w-[70%]'>
 {/* <div className='lg:hidden absolute left-[-5.1%] top-[-1.9%]  text-sm font-[300] text-[#f2f2f2]/30 mr-5'>{'<p>'} </div>  */}
           <p className='text-[#f2f2f2]/70 mb-2 font-[Satoshi Light]'>I specialize in designing and maintaining responsive websites that prioritize user satisfaction.</p>
